@@ -9,8 +9,9 @@ Independent engineer and founder at [TechWorker Inc.](https://techworker.co.jp) 
 
 ### Contributing to
 
-- **[tscircuit](https://github.com/tscircuit)** — electronics design in TypeScript/React. Open PRs on [`core`](https://github.com/tscircuit/core), [`checks`](https://github.com/tscircuit/checks), [`cli`](https://github.com/tscircuit/cli), [`circuit-to-svg`](https://github.com/tscircuit/circuit-to-svg) and [`circuit-json-to-kicad`](https://github.com/tscircuit/circuit-json-to-kicad).
-- **Stellar tooling** — [`routedock`](https://github.com/winsznx/routedock) and [`compliance-adapters`](https://github.com/stellar-compliance-kit/compliance-adapters).
+- **[gbrain](https://github.com/garrytan/gbrain)** — persistent memory for AI agents. Three fixes adopted upstream and credited in the release notes:
+  - [v0.60.5.0](https://github.com/garrytan/gbrain/releases/tag/v0.60.5.0) — the session-end hook skips gbrain's own `claude-cli` sessions ([#5468](https://github.com/garrytan/gbrain/pull/5468)), and `recall --grep` filters before its limit ([#5619](https://github.com/garrytan/gbrain/pull/5619)).
+  - [v0.56.1.0](https://github.com/garrytan/gbrain/releases/tag/v0.56.1.0) — a conversation-parser pattern for Python-dict transcripts ([#5365](https://github.com/garrytan/gbrain/pull/5365)).
 
 [All pull requests](https://github.com/search?q=is%3Apr+author%3Afuruchanchan&type=pullrequests) · [Sponsor my work](https://github.com/sponsors/furuchanchan)
 
